@@ -5,26 +5,28 @@ body {
 }
 
 div.header {
-    width: 100%;
-    margin: 0;
+    max-width: 960px;
+    margin: 0 auto;
     padding: 30px;
-    padding-left: 0;
+}
+
+#header{
+    margin: 0 auto;
     background-color: rgba(0, 153, 255, 0.692);   
 }
 
 img.header_image {
     float: left;
-    margin-left: 500px;
     width: 120px;
     height: 60px;
     vertical-align: middle;
 }
 
 div.Name {
+    margin: 0 auto;
     font-size: 30px;
     font-weight: bold;
     padding: 10px;
-    margin-left: 640px;
     vertical-align: middle;
 }
 
@@ -51,8 +53,6 @@ div.body{
 .menu{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 5px;
 }
 
@@ -111,7 +111,7 @@ footer {
 }
 
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 640px) {
     body {
         font-size: 17px;
     }
@@ -144,11 +144,38 @@ footer {
 
     div.header {
         margin: 0 auto;
-        width: 100%;
+        padding: 30px;
+        max-width: 960px;
+    }
+
+    #header{
+        margin: 0 auto;
+        background-color: rgba(0, 153, 255, 0.692);   
+    }
+
+    img.header_image {
+        float: left;
+        width: 120px;
+        height: 60px;
+        vertical-align: middle;
+    }
+
+    div.Name {
+        font-size: 30px;
+        font-weight: bold;
+        vertical-align: middle;
+    }
+    
+    div.body{
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 10px;
     }
 
     .menu {
         margin: 0 auto;
         max-width: 960px;
+        align-items: center;
+        justify-content: center;
     }
 }
