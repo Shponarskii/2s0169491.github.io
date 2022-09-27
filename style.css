@@ -5,13 +5,12 @@ body {
 }
 
 div.header {
-    width: 100%;
+    max-width: 960px;
     margin: 0;
     padding: 30px;
 }
 
 #header{
-    width: 100%;
     margin: 0 auto;
     background-color: rgba(0, 153, 255, 0.692);   
 }
@@ -20,7 +19,7 @@ img.header_image {
     margin-left: -10px;
     float: left;
     width: 120px;
-    height: 80px;
+    height: 70px;
     vertical-align: middle;
 }
 
@@ -57,7 +56,7 @@ div.body{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    margin-left: -20px;
+    margin-left: 0;
 }
 
 .menu a{
@@ -107,7 +106,6 @@ li{
 }
 
 footer {
-    width: 100%;
     height: 20px;
     padding: 10px;
     margin: 0;
@@ -153,6 +151,7 @@ footer {
     }
 
     #header{
+        margin: 0 auto;
         width: 100%;
         background-color: rgba(0, 153, 255, 0.692);   
     }
@@ -183,11 +182,5 @@ footer {
         max-width: 960px;
         align-items: center;
         justify-content: center;
-    }
-    footer {
-        height: 20px;
-        padding: 10px;
-        margin: 0;
-        background-color: rgba(0, 153, 255, 0.692);
     }
 }
