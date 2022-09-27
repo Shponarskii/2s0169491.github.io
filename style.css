@@ -19,7 +19,7 @@ img.header_image {
     margin-left: -10px;
     float: left;
     width: 120px;
-    height: 76px;
+    height: 80px;
     vertical-align: middle;
 }
 
@@ -60,7 +60,7 @@ div.body{
 }
 
 .menu a{
-    margin-left: 0;
+    margin-left: -10px;
     margin-right: 40px;
     font-size: 20px;
     color: #2617cf;
