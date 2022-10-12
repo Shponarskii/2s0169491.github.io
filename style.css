@@ -19,8 +19,12 @@ img.header_image {
     margin-left: -10px;
     float: left;
     width: 120px;
-    height: 80px;
+    height: 70px;
     vertical-align: middle;
+}
+
+#a{
+    margin-left: 10px;
 }
 
 div.Name {
@@ -56,7 +60,7 @@ div.body{
     display: flex;
     flex-direction: column;
     padding: 5px;
-    margin-left: 0;
+    margin-left: -7px;
 }
 
 .menu a{
